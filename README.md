@@ -64,6 +64,22 @@ Lab 4: Malloc
 
   Files: malloc.c, churn.c and churn2.c for testing
 
+  Lab 5: Network Chat Client
+  
+    Learning Objectives:
+    
+      1. Write a chat server that manages multiple concurrent connections
+    
+      2. Write a chat client
+      
+      3. Perform asynchronous message passing between arbitrary numbers of clients
+      
+      4. Perform concurrent, nonblocking I/O 
+
+      Notes: Required use of a linked list on the server rather than multi-threading to track multiple clients. Uses Linux system calls, not purely C library functions.
+
+      Files: server.c, client.c
+
   
 
     
